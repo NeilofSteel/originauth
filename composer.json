@@ -1,0 +1,22 @@
+{
+  "name": "neilofsteel/originauth",
+  "description": "A little helper for https://originauth.com/",
+  "version": "1.0",
+  "authors": [
+    {
+      "name": "Neil",
+      "email": "neil.privatemail@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "files": [ "src/OriginAuth.php" ],
+    "psr-4": {
+      "OriginAuth\\": "src/"
+    }
+  }
+}
